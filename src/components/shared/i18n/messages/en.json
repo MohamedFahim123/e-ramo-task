@@ -1,0 +1,300 @@
+{
+  "Metadata": {
+    "home": {
+      "title": "Chair Location | Meeting Rooms, Coworking Spaces & Private Offices in Jeddah",
+      "description": "Discover flexible meeting rooms, coworking spaces, dedicated desks, and private offices in Jeddah with Chair Location."
+    }
+  },
+  "Common": {
+    "brand": "Chair Location",
+    "actions": {
+      "bookNow": "Book Now",
+      "contactUs": "Contact Us",
+      "search": "Search",
+      "learnMore": "Learn More",
+      "showMore": "Show More",
+      "createAccount": "Create Account",
+      "login": "Login",
+      "goHome": "Back To Homepage",
+      "retry": "Try Again"
+    },
+    "locale": {
+      "switch": "العربية"
+    },
+    "theme": {
+      "toggle": "Toggle color theme",
+      "light": "Switch to light mode",
+      "dark": "Switch to dark mode"
+    },
+    "downloads": {
+      "google": "Download on Google Play",
+      "apple": "Download on App Store"
+    }
+  },
+  "Header": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "howItWorks": "How It Works",
+      "membership": "Membership",
+      "blogs": "Blogs",
+      "contact": "Contact Us"
+    },
+    "productsMenu": "Products",
+    "products": {
+      "sharedArea": "Shared Area In Jeddah",
+      "privateOffice": "Private Office In Jeddah",
+      "meetingRooms": "Meeting Room In Jeddah",
+      "dedicatedDesk": "Dedicated Desk In Jeddah",
+      "conferenceRooms": "Conference Rooms In Jeddah",
+      "coworkingSpaces": "Coworking Spaces In Jeddah"
+    }
+  },
+  "Footer": {
+    "mainPagesTitle": "Main Pages",
+    "productsTitle": "Products",
+    "downloadTitle": "Download Chair Location App",
+    "legal": {
+      "privacy": "Privacy & Policy",
+      "terms": "Terms & Conditions",
+      "coworkingSpaces": "Coworking Spaces",
+      "officesForRent": "Offices For Rent",
+      "sharedArea": "Shared Area",
+      "dedicatedDesk": "Dedicated Desk"
+    },
+    "copyright": "All Copyrights Chair Location"
+  },
+  "Home": {
+    "hero": {
+      "title": "Office That Fits You",
+      "description": "Coworking & Flexible Office Marketplace | Search & Book Today",
+      "search": "Search",
+      "searchPlaceholder": "Search here...",
+      "tabs": {
+        "sharedArea": "Shared Space",
+        "privateOffice": "Private Offices",
+        "meetingRooms": "Meeting Rooms",
+        "dedicatedDesk": "Dedicated Desk"
+      },
+      "slides": {
+        "slide1": {
+          "title": "Office That Fits You",
+          "description": "Coworking & Flexible Office Marketplace | Search & Book Today"
+        },
+        "slide2": {
+          "title": "Co Working Spaces Fits You",
+          "description": "Coworking & Flexible Office Marketplace | Search & Book Today"
+        }
+      }
+    },
+    "latestListings": {
+      "label": "LATEST LISTINGS",
+      "subtitle": "Check Our Latest Listings",
+      "amenities": "Amenities :",
+      "price": "Price Starting From",
+      "book": "Book Now",
+      "learn": "Learn More",
+      "tabs": {
+        "shared": "Shared Area",
+        "office": "Private Offices",
+        "meeting": "Meeting Rooms",
+        "desk": "Dedicated Desk"
+      },
+      "shared": {
+        "title": "Shared Coworking Spaces",
+        "category": "(Shared Area)",
+        "description": "Stop going to Coffee shops to accomplish your work...",
+        "price": "17.25 SAR /Hour",
+        "amenities": [
+          "Commercial license",
+          "High Speed Internet",
+          "Major Street",
+          "Business Hub",
+          "Transportation"
+        ]
+      },
+      "office": {
+        "title": "Private Offices",
+        "category": "(Private Office)",
+        "description": "Find the perfect private office for your team or business.",
+        "price": "From 500 SAR /Month",
+        "amenities": [
+          "High Speed Internet",
+          "Conference Room",
+          "Reception Area",
+          "Printing Services",
+          "Security"
+        ]
+      },
+      "meeting": {
+        "title": "Meeting Rooms",
+        "category": "(Meeting Room)",
+        "description": "Book professional meeting rooms for your next gathering.",
+        "price": "From 100 SAR /Hour",
+        "amenities": [
+          "Projector",
+          "Whiteboard",
+          "Video Conferencing",
+          "Refreshments",
+          "Flexible Seating"
+        ]
+      },
+      "desk": {
+        "title": "Dedicated Desks",
+        "category": "(Dedicated Desk)",
+        "description": "Secure your own dedicated desk in a vibrant coworking space.",
+        "price": "From 200 SAR /Month",
+        "amenities": [
+          "Personal Storage",
+          "High Speed Internet",
+          "24/7 Access",
+          "Community Events",
+          "Networking Opportunities"
+        ]
+      }
+    },
+    "locationShowcase": {
+      "title": "Prime Locations Across Jeddah",
+      "description": "Discover polished workspaces in strong business locations with premium interiors and flexible booking options.",
+      "items": {
+        "businessDistrict": {
+          "title": "Business District Access",
+          "subtitle": "Professional surroundings close to key business hubs."
+        },
+        "teamSpaces": {
+          "title": "Flexible Team Spaces",
+          "subtitle": "Book rooms and offices designed for productive sessions."
+        },
+        "connectedAddresses": {
+          "title": "Well-Connected Addresses",
+          "subtitle": "Easy access, polished interiors, and premium amenities."
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "subtitle": "Coworking & Flexible Office Marketplace | Search & Book Today",
+      "steps": {
+        "1": {
+          "title": "Book, Reach or Call",
+          "description": "Search on your beloved office that fits your needs, then book it."
+        },
+        "2": {
+          "title": "Office That Fit You",
+          "description": "You can choose from many varieties the office that fits your needs."
+        },
+        "3": {
+          "title": "Book your Coworking space",
+          "description": "Book your Coworking space in modern place."
+        }
+      }
+    },
+    "about": {
+      "title": "About Chair Location",
+      "intro": "Chair Location is a website and mobile app where you can search, find, and reserve coworking spaces, private offices, meeting rooms, and virtual offices in Jeddah near you.",
+      "worksTitle": "How Chair Location Works",
+      "worksDescription": "Chair Location is a platform designed to connect individuals and businesses looking for flexible workspaces with providers of these spaces. Think of it as a digital marketplace where you can browse, compare, and book the space that perfectly suits your needs.",
+      "processTitle": "The Search and Booking Process",
+      "process": {
+        "search": {
+          "label": "Search",
+          "text": "Start by searching for the right type of workspace in Jeddah."
+        },
+        "compare": {
+          "label": "Browse and Compare",
+          "text": "Compare the available spaces and the features that matter most to you."
+        },
+        "book": {
+          "label": "Book",
+          "text": "Reserve the workspace with a simple and direct booking flow."
+        }
+      },
+      "audienceTitle": "Who Is Chair Location For?",
+      "audience": {
+        "freelancers": {
+          "label": "Freelancers and Entrepreneurs",
+          "text": "Who need a professional work environment away from home."
+        },
+        "startups": {
+          "label": "Startups",
+          "text": "Looking for flexibility and lower operational costs compared to traditional offices."
+        },
+        "smallTeams": {
+          "label": "Small Teams",
+          "text": "Who need a place to meet or work on specific projects."
+        },
+        "travelers": {
+          "label": "Business Travelers",
+          "text": "Who require a place to work while in Jeddah."
+        }
+      },
+      "summary": "In short, Chair Location acts as a bridge, quickly and easily connecting you to the space you need to work effectively in Jeddah.",
+      "reasonsTitle": "Why Chair Location",
+      "reasons": {
+        "amenities": "We Offer All Amenities in Every Location",
+        "support": "All Kinds Of Support 24/7",
+        "offices": "Choose From 40 Offices"
+      }
+    },
+    "coworking": {
+      "title": "Chair Location Coworking Space For You",
+      "description": "Chair Location Coworking space offers you the freedom to work closer to clients, colleagues or home. It's also greener and more cost-effective. With over 40 luxury offices, nobody is better placed than Chair Location to help you make the best of it.",
+      "cards": {
+        "shared": {
+          "title": "Shared Area Places",
+          "description": "A shared area in Jeddah in Chair Location Co-Working space is a communal workspace designed for multiple members."
+        },
+        "meeting": {
+          "title": "Meeting Rooms",
+          "description": "Professional meeting rooms equipped with modern tools for productive discussions."
+        },
+        "office": {
+          "title": "Private Offices",
+          "description": "Fully equipped private offices offering privacy and comfort for teams."
+        }
+      }
+    },
+    "app": {
+      "title": "Explore Chair Location App",
+      "description": "Hybrid working offers you the freedom to work closer to clients, colleagues or home. It's also greener",
+      "google": "Download on Google Play",
+      "apple": "Download on App Store"
+    },
+    "appPromo": {
+      "title": "Download Chair Location App",
+      "description": "Get the Chair Location experience on mobile and book workspaces on the go with the same calm, polished visual identity."
+    },
+    "recentArticles": {
+      "title": "Recent Articles",
+      "description": "Editorial cards using the supplied screenshots to stay visually aligned with the live site content.",
+      "items": {
+        "sharedArea": {
+          "title": "Shared Area In Jeddah",
+          "date": "March 4, 2026"
+        },
+        "conferenceRooms": {
+          "title": "Conference Rooms In Jeddah",
+          "date": "March 9, 2026"
+        },
+        "meetingRooms": {
+          "title": "Meeting Rooms In Jeddah",
+          "date": "March 10, 2026"
+        }
+      }
+    }
+  },
+  "NotFound": {
+    "eyebrow": "404 Error",
+    "title": "This workspace page drifted away.",
+    "description": "The page you requested could not be found. Head back to the homepage and continue exploring Chair Location.",
+    "button": "Back To Homepage"
+  },
+  "Error": {
+    "title": "Something went wrong",
+    "description": "We hit an unexpected issue while loading this page. Try again to continue browsing the homepage."
+  },
+  "Loading": {
+    "title": "Loading Chair Location",
+    "description": "We are preparing the latest workspace view for you."
+  }
+}
