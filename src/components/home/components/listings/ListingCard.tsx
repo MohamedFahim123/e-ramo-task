@@ -50,6 +50,8 @@ export function ListingCard({ item }: Props) {
           <div className="absolute right-3 top-3 flex gap-2">
             <button
               onClick={handleShare}
+              name="share"
+              title="share"
               className="flex h-9 w-9 cursor-pointer items-center justify-center rounded-full bg-white shadow-sm transition hover:bg-gray-100"
             >
               <Share2 size={16} />
@@ -57,6 +59,8 @@ export function ListingCard({ item }: Props) {
 
             <button
               onClick={() => setOpen(true)}
+              name="favorite"
+              title="Add to favorites"
               className="flex h-9 w-9 cursor-pointer items-center justify-center rounded-full bg-white shadow-sm transition hover:bg-gray-100"
             >
               <Heart size={16} />

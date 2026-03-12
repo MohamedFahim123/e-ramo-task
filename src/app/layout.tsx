@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html suppressHydrationWarning data-scroll-behavior="smooth">
+    <html suppressHydrationWarning data-scroll-behavior="smooth" lang="en">
       <body className="bg-white text-[var(--foreground)]">{children}</body>
     </html>
   );

@@ -42,17 +42,23 @@ export default function RecentArticles({
               {tr.title}
             </h2>
 
-            <p className="text-gray-500 mt-2 text-sm">
-              {tr.subtitle}
-            </p>
+            <p className="text-gray-500 mt-2 text-sm">{tr.subtitle}</p>
           </div>
 
           <div className="flex gap-3">
-            <button className="w-10 h-10 rounded-md bg-[var(--global)] text-white flex items-center justify-center hover:opacity-90">
+            <button
+              className="w-10 h-10 rounded-md bg-[var(--global)] text-white flex items-center justify-center hover:opacity-90"
+              name="Previous"
+              title="Previous"
+            >
               <ArrowLeft size={18} />
             </button>
 
-            <button className="w-10 h-10 rounded-md bg-[var(--global)] text-white flex items-center justify-center hover:opacity-90">
+            <button
+              className="w-10 h-10 rounded-md bg-[var(--global)] text-white flex items-center justify-center hover:opacity-90"
+              name="Next"
+              title="Next"
+            >
               <ArrowRight size={18} />
             </button>
           </div>
@@ -60,10 +66,7 @@ export default function RecentArticles({
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">
           {articles.map((article) => (
-            <article
-              key={article.id}
-              className="group cursor-pointer"
-            >
+            <article key={article.id} className="group cursor-pointer">
               <div className="relative h-[210px] rounded-xl overflow-hidden mb-5">
                 <Image
                   src={article.image}
@@ -77,9 +80,7 @@ export default function RecentArticles({
                 {article.title}
               </h3>
 
-              <p className="text-xs text-gray-400 mb-3">
-                {article.date}
-              </p>
+              <p className="text-xs text-gray-400 mb-3">{article.date}</p>
 
               <p className="text-sm text-gray-600 leading-relaxed line-clamp-3">
                 {article.excerpt}

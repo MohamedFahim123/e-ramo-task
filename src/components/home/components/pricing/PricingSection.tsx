@@ -99,6 +99,8 @@ export function PricingSection() {
                   <button
                     onClick={scrollPrev}
                     disabled={!canScrollPrev}
+                    name="Previous"
+                    title="Previous"
                     className="flex h-11 w-11 items-center justify-center rounded-full bg-[#94a78c] text-white shadow-md transition hover:scale-105 disabled:cursor-not-allowed disabled:opacity-40"
                   >
                     <ChevronLeft size={18} />
@@ -107,6 +109,8 @@ export function PricingSection() {
                   <button
                     onClick={scrollNext}
                     disabled={!canScrollNext}
+                    name="Next"
+                    title="Next"
                     className="flex h-11 w-11 items-center justify-center rounded-full bg-[#94a78c] text-white shadow-md transition hover:scale-105 disabled:cursor-not-allowed disabled:opacity-40"
                   >
                     <ChevronRight size={18} />
