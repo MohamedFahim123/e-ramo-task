@@ -124,7 +124,6 @@ export function ContactSection() {
           <div className="relative">
             <input
               id="name"
-              name="name"
               autoComplete="name"
               {...register("name", { required: true })}
               className="peer w-full h-12 px-4 pt-4 rounded-lg border bg-gray-100 focus:outline-none focus:ring-2 focus:ring-green-700"
@@ -147,7 +146,6 @@ export function ContactSection() {
           <div className="relative">
             <input
               id="email"
-              name="email"
               type="email"
               autoComplete="email"
               {...register("email", { required: true })}
@@ -170,7 +168,6 @@ export function ContactSection() {
           <div className="relative">
             <input
               id="phone"
-              name="phone"
               autoComplete="tel"
               {...register("phone")}
               className="peer w-full h-12 px-4 pt-4 rounded-lg border bg-gray-100 focus:outline-none focus:ring-2 focus:ring-green-700"
@@ -192,7 +189,6 @@ export function ContactSection() {
           <div className="relative">
             <textarea
               id="message"
-              name="message"
               autoComplete="off"
               rows={5}
               {...register("message", { required: true })}
