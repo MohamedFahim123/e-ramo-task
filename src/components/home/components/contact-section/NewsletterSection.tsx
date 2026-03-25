@@ -80,7 +80,10 @@ export function NewsletterSection() {
               className="mx-auto mt-8 flex max-w-xl flex-col items-stretch gap-3 sm:flex-row sm:items-center"
             >
               <input
+                id="newsletter-email"
+                name="newsletter-email"
                 type="email"
+                autoComplete="email"
                 {...register("email", { required: true })}
                 placeholder={tr.placeholder}
                 className="h-12 w-full rounded-xl border border-[#d9a870] bg-white/85 px-4 outline-none transition focus:ring-2 focus:ring-green-700"

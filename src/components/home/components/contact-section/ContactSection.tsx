@@ -108,7 +108,7 @@ export function ContactSection() {
           <div className="mt-10">
             <p className="font-medium text-gray-700">{tr.follow}</p>
 
-            <div className="flex gap-6 mt-4 text-gray-400">
+            <div className="flex gap-6 mt-4 text-gray-600">
               <Facebook className="cursor-pointer hover:text-gray-700 transition" />
               <Linkedin className="cursor-pointer hover:text-gray-700 transition" />
               <Instagram className="cursor-pointer hover:text-gray-700 transition" />
@@ -124,6 +124,8 @@ export function ContactSection() {
           <div className="relative">
             <input
               id="name"
+              name="name"
+              autoComplete="name"
               {...register("name", { required: true })}
               className="peer w-full h-12 px-4 pt-4 rounded-lg border bg-gray-100 focus:outline-none focus:ring-2 focus:ring-green-700"
               placeholder=" "
@@ -145,7 +147,9 @@ export function ContactSection() {
           <div className="relative">
             <input
               id="email"
+              name="email"
               type="email"
+              autoComplete="email"
               {...register("email", { required: true })}
               className="peer w-full h-12 px-4 pt-4 rounded-lg border bg-gray-100 focus:outline-none focus:ring-2 focus:ring-green-700"
               placeholder=" "
@@ -166,6 +170,8 @@ export function ContactSection() {
           <div className="relative">
             <input
               id="phone"
+              name="phone"
+              autoComplete="tel"
               {...register("phone")}
               className="peer w-full h-12 px-4 pt-4 rounded-lg border bg-gray-100 focus:outline-none focus:ring-2 focus:ring-green-700"
               placeholder=" "
@@ -186,6 +192,8 @@ export function ContactSection() {
           <div className="relative">
             <textarea
               id="message"
+              name="message"
+              autoComplete="off"
               rows={5}
               {...register("message", { required: true })}
               className="peer w-full px-4 pt-6 pb-3 rounded-lg border bg-gray-100 focus:outline-none focus:ring-2 focus:ring-green-700"

@@ -137,7 +137,7 @@ export function SiteHeader() {
           </Link>
 
           <nav className="hidden flex-1 items-center justify-center lg:flex">
-            <ul className="flex items-center gap-5 text-[13px] font-semibold text-[var(--muted-foreground)]">
+            <ul className="flex items-center gap-5 text-[13px] font-semibold text-[var(--foreground)]">
               {primaryNavItems.map((item) => (
                 <li key={item.id}>
                   <Link

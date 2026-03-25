@@ -21,7 +21,7 @@ export function LoginModal({
       <div className="relative w-[420px] rounded-xl bg-white p-8 text-center shadow-lg">
         <button
           onClick={onClose}
-          className="absolute right-4 top-4 text-gray-400"
+          className="absolute right-4 top-4 text-gray-600"
         >
           ✕
         </button>

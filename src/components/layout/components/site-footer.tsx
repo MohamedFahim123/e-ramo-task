@@ -85,6 +85,7 @@ export function SiteFooter() {
                     alt="Google Play"
                     width={22}
                     height={22}
+                    style={{ width: 'auto', height: 'auto' }}
                     className="h-5 w-5"
                   />
                   {common("downloads.google")}

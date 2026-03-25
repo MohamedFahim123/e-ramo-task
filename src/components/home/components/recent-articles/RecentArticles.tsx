@@ -72,6 +72,7 @@ export default function RecentArticles({
                   src={article.image}
                   alt={article.title}
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="object-cover transition duration-500 group-hover:scale-105"
                 />
               </div>
@@ -80,7 +81,7 @@ export default function RecentArticles({
                 {article.title}
               </h3>
 
-              <p className="text-xs text-gray-400 mb-3">{article.date}</p>
+              <p className="text-xs text-gray-500 mb-3">{article.date}</p>
 
               <p className="text-sm text-gray-600 leading-relaxed line-clamp-3">
                 {article.excerpt}

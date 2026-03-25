@@ -45,6 +45,7 @@ export function AppExploreSection() {
                     alt=""
                     width={24}
                     height={24}
+                    style={{ width: 'auto', height: 'auto' }}
                   />
                   {t("google")}
                 </a>
@@ -71,6 +72,7 @@ export function AppExploreSection() {
             alt="hand image"
             width={100}
             height={100}
+            style={{ width: 'auto', height: 'auto' }}
             className="pointer-events-none absolute right-0 top-6 hidden animate-hand lg:block"
           />
 

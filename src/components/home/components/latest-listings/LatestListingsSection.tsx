@@ -48,9 +48,9 @@ export function LatestListingsSection() {
               </p>
 
               <div className="mt-6">
-                <h4 className="text-sm font-semibold text-gray-700">
+                <h3 className="text-sm font-semibold text-gray-700">
                   {t("amenities")}
-                </h4>
+                </h3>
 
                 <ul className="mt-3 space-y-2 text-sm text-gray-700">
                   {t.raw(`${active}.amenities`).map((item: string) => (
@@ -87,6 +87,7 @@ export function LatestListingsSection() {
                 src="/assets/latest-listings/bg.webp"
                 alt=""
                 fill
+                sizes="50vw"
                 className="object-cover"
               />
             </div>

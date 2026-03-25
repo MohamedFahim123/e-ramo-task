@@ -65,8 +65,8 @@ export default async function LocaleLayout({ children, params }: Readonly<{ chil
     <NextIntlClientProvider locale={typedLocale} messages={messages}>
       <div lang={typedLocale} dir={dir} data-locale={typedLocale} className="min-h-screen">
         <div className="pointer-events-none fixed left-0 right-0 top-0 z-50 hidden sm:block">
-          <Image src="/assets/ramadan.webp" alt="" width={400} height={400} sizes="(max-width: 640px) 0px, 208px" className="float-ramadan absolute right-0 top-0 w-20 sm:w-28 md:w-36 lg:w-44 xl:w-52" />
-          <Image src="/assets/ramadan.webp" alt="" width={400} height={400} sizes="(max-width: 640px) 0px, 208px" className="float-ramadan absolute left-0 top-0 w-20 -scale-x-100 sm:w-28 md:w-36 lg:w-44 xl:w-52" />
+          <Image src="/assets/ramadan.webp" alt="" width={400} height={400} sizes="(max-width: 640px) 0px, 208px" loading="eager" className="float-ramadan absolute right-0 top-0 w-20 sm:w-28 md:w-36 lg:w-44 xl:w-52" />
+          <Image src="/assets/ramadan.webp" alt="" width={400} height={400} sizes="(max-width: 640px) 0px, 208px" loading="eager" className="float-ramadan absolute left-0 top-0 w-20 -scale-x-100 sm:w-28 md:w-36 lg:w-44 xl:w-52" />
         </div>
         <SiteHeader />
         <main>{children}</main>

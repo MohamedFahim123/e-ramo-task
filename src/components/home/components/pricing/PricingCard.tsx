@@ -37,7 +37,7 @@ export function PricingCard({ plan, yearly }: { plan: PricingPlan; yearly: boole
             }`}
           >
             <Image
-              src="/images/plans/1.svg"
+              src="/assets/plans/1.svg"
               alt="Plan icon"
               width={32}
               height={32}

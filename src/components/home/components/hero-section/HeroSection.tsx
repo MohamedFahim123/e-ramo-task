@@ -77,8 +77,11 @@ export function HeroSection() {
 
           <div className="mt-5 flex flex-col gap-3 md:flex-row">
             <div className="flex flex-1 items-center gap-3 rounded-xl bg-white px-4 py-3">
-              <Search className="h-5 w-5 text-gray-400" />
+              <Search className="h-5 w-5 text-gray-500" />
               <input
+                id="hero-search"
+                name="hero-search"
+                autoComplete="search"
                 placeholder={t("searchPlaceholder")}
                 className="w-full bg-transparent text-sm outline-none"
               />

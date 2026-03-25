@@ -35,6 +35,7 @@ export function ListingCard({ item }: Props) {
             src={item.image}
             alt={item.title}
             fill
+            sizes="(max-width: 640px) 50vw, 25vw"
             className="object-cover transition duration-500 group-hover:scale-105"
           />
 

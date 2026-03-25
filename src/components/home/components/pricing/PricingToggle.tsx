@@ -13,7 +13,7 @@ export function PricingToggle({ yearly, onChange }: Props) {
             className={`rounded-[1rem] px-4 py-3 text-sm font-semibold transition-all ${
               !yearly
                 ? "bg-white text-[#365327] shadow-[0_10px_22px_rgba(54,83,39,0.12)]"
-                : "text-[#6b7567]"
+                : "text-[var(--muted-foreground)]"
             }`}
           >
             Monthly
@@ -24,7 +24,7 @@ export function PricingToggle({ yearly, onChange }: Props) {
             className={`rounded-[1rem] px-4 py-3 text-sm font-semibold transition-all ${
               yearly
                 ? "bg-white text-[#365327] shadow-[0_10px_22px_rgba(54,83,39,0.12)]"
-                : "text-[#6b7567]"
+                : "text-[var(--muted-foreground)]"
             }`}
           >
             Annually
