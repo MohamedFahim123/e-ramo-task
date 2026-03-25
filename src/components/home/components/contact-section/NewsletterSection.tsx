@@ -81,7 +81,6 @@ export function NewsletterSection() {
             >
               <input
                 id="newsletter-email"
-                name="newsletter-email"
                 type="email"
                 autoComplete="email"
                 {...register("email", { required: true })}
